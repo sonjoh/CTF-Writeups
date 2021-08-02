@@ -56,7 +56,7 @@ You just wirelessly captured the handshake of the CEO of a multi-million dollar 
 <br/>
 author: Rohans885
 ### Writeup
-The first thing that came to my mind was aircrack-ng. But i didnt know the bssid to use so i had to start analyzing the cap file in wireshark. Here i saw that the very first frame captured was a Broadcast / Beacon frame. If you open the frame you can find the bssid under Transmitter and Source address; e4:95:6e:45:90:24. I started a kali VM where i knwe i had aircrack and wordlists and ran the command.
+The first thing that came to my mind was aircrack-ng. But i didnt know the bssid to use so i had to start analyzing the cap file in wireshark. Here i saw that the very first frame captured was a Broadcast / Beacon frame. If you open the frame you can find the bssid under Transmitter and Source address; e4:95:6e:45:90:24. I started a kali VM where i knew i had aircrack and wordlists and ran the command.
 ```
 aircrack-ng ~/ctf/uiuctf-2021/CEO/megacorp-01.cap -b e4:95:6e:45:90:24 -w /usr/share/wordlists/rockyou.txt
 ```
