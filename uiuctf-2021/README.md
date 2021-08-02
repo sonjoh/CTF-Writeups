@@ -33,7 +33,7 @@ author: ian5v
 ### Writeup
 In the discord channel there was a wierd emote that looked a bit like noise. I downloaded the file as emote with no file extention (ive added the .png extention in the file uploaded here).
 Pic:
-![emote.png](https://github.com/sonjoh/CTF/blob/main/UIUCTF-2021/emote/emote.png?raw=true)
+![emote.png](https://raw.githubusercontent.com/sonjoh/CTF-Writeups/main/uiuctf-2021/emote/emote.png)
 With ubuntu i ran the emote through zsteg and got the flag.
 ### Flag
 ```
