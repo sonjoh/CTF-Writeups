@@ -8,8 +8,10 @@ Written by [usr: Slipner team:R49n4r0k](https://ctftime.org/user/107395)
 
 ## phpfuck (Points: 50)
 ### Task
-i hate php <br/>
+i hate php
+<br/>
 <http://phpfuck.chal.uiuc.tf>
+<br/>
 author: arxenix
 ### Writeup
 In the top of the site we see this code
@@ -31,7 +33,10 @@ uiuctf{pl3as3_n0_m0rE_pHpee}
 
 ## emote (Points: 50)
 ### Task
-recently i've been converting strings into images for funsies and staring at them. anytime time to go share those images with my friends in discord! warning: staring at noise in visual form may or may not introduce you to the abyss
+recently i've been converting strings into images for funsies and staring at them. anytime time to go share those images with my friends in discord!
+<br/>
+warning: staring at noise in visual form may or may not introduce you to the abyss
+<br/>
 author: ian5v
 ### Writeup
 In the discord channel there was a wierd emote that looked a bit like noise. I downloaded the file as emote with no file extention (ive added the .png extention in the file uploaded here).
@@ -48,6 +53,7 @@ uiuctf{staring_at_pixels_is_fun}
 ## CEO (Points: 50)
 ### Task
 You just wirelessly captured the handshake of the CEO of a multi-million dollar company! Use your password cracking skills to get the password! Wrap the password in the flag format. E.g: uiuctf{password}
+<br/>
 author: Rohans885
 ### Writeup
 The first thing that came to my mind was aircrack-ng. But i didnt know the bssid to use so i had to start analyzing the cap file in wireshark. Here i saw that the very first frame captured was a Broadcast / Beacon frame. If you open the frame you can find the bssid under Transmitter and Source address; e4:95:6e:45:90:24. I started a kali VM where i knwe i had aircrack and wordlists and ran the command.
@@ -66,7 +72,9 @@ uiuctf{nanotechnology}
 ## Chaplin's PR Nightmare - 2 (Points: 50)
 ### Task
 Charlie made an advertisement to promote his company, he is using the modern media platform YouTube to present it! Can you find it?
+<br/>
 The inner content of this flag begins with "ch"
+<br/>
 author: Thomas
 ### Writeup
 On this task i thought i started on another task with the action house bot on discord. When i tried the command
@@ -86,7 +94,8 @@ uiuctf{ch@plin_on_th3_tV!!}
 
 ## wasmbaby (Points: 50)
 ### Task
-wasm's a cool new technology! http://wasmbaby.chal.uiuc.tf
+wasm's a cool new technology! <http://wasmbaby.chal.uiuc.tf>
+<br/>
 author: ian5v
 ### Writeup
 I did a search for the engine that runs the site and found it was a engine for webassembely. I then realized i shoud've understood this when i read the title.
