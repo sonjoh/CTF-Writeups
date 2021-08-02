@@ -1,4 +1,7 @@
 # UIUCTF 2021 Writeup
+
+![UIUCTF 2021](https://github.com/sonjoh/CTF-Writeups/blob/main/uiuctf-2021/res/uiuctf-2021.png?raw=true)
+
 Written by [usr: Slipner team:R49n4r0k](https://ctftime.org/user/107395)
 
 ---
